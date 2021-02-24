@@ -1,7 +1,98 @@
 /* Vos customisations des classes de Bootstrap */
 
+.container-fluid {
+    color: white;
+    display: flex;
+    align-self: flex-end;
+}
+
+#home{
+    color: white;
+    background-image: url(../images/hero-image.jpg);
+    height: 450px;
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#who {
+    display: flex;
+    justify-content: center;
+    flex-direction:column ;
+    align-items: center;
+    text-align: center;
+}
+
+#who img{
+
+    width: 150px;
+    margin-top: 20px;
+    
+}
+    
+#who h2 {
+    color: red;
+    text-decoration: underline;
+    text-underline-offset: 25px;
+    text-decoration-thickness: 1px;
+}
+ #who p {
+     margin-top:20px ;
+     
+ }
+
+ .color {
+     background-color: rgb(211, 210, 210);
+ }
 
 
+#get-involved h2{
+    
+    color: red;
+    font-size:30px;
+    text-decoration: underline;
+    text-underline-offset: 25px;
+    text-decoration-thickness: 1px;
+}
+
+ #get-involved {
+     background-color: rgb(241, 239, 239);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     text-align: center;
+}
+
+.rounded-circle { 
+    padding:20px;
+    border-radius: 10%;
+ }
+
+
+ .col h2{
+     color:red;
+ }
+
+ .col p {
+     height: 90px;
+     width: 300px;
+ }
+
+footer {
+     background-color: red;
+     text-align: center;
+     padding-top: 100px;
+     padding-bottom:30px;
+    
+     
+ }
+    
 
 /* Responsive Styling */
 
